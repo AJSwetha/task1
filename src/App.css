@@ -1,0 +1,569 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*header*/
+.header{
+  width: 100%;
+  position: fixed !important;
+  background-color: rgba(82, 79, 79, 0.595);
+}
+.logoimg{
+  margin: 20px 0px 10px 100px;
+}
+.header a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.liststyle li{
+  padding: 20px;
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  float: left; 
+}
+.liststyle li .link{
+  text-decoration: none;
+  color: #fff;
+}
+.liststyle li .link:hover{
+  color: rgb(164, 69, 237);
+}
+/* End header */
+/*content*/
+.content{
+  padding-top: 60px
+}
+.content h1{
+  padding: 100px 0px 0px 100px;
+}
+.content p{
+  padding:0px 0px 0px 100px;
+} 
+.contentimg{
+  height: 70%;
+  width: 80%;
+  margin-top: 10px;
+}
+.content .clickbtn{
+  padding: 20px;
+  background-color: rgb(107, 13, 179);
+  box-shadow: 10px 10px 5px rgb(174, 91, 242);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  margin: 10px 0px 0px 100px;
+  font-size: 14px;
+}
+.content .clickbtn:hover{
+  background-color: rgb(244, 20, 154);
+}
+/*End content*/
+/*services*/
+.services{
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0px 50px 50px;
+}
+.allservices{
+  padding: 30px 0px 0px 90px; 
+  column-gap:35px;
+}
+.allservices .box{
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius:10px;
+  width: 300px; 
+}
+.services .para1{
+  padding: 0px 0px 0px 80px;
+  color: rgb(239, 91, 27);
+  font-size: 15px;
+}
+.services .para2{
+  padding: 0px 0px 0px 80px;
+  font-size: 15px;
+}
+.services h2{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 0px 0px 80px;
+  font-size: 35px;
+  font-weight: 600;
+}
+/*End services*/
+/*aboutus*/
+.aboutus{
+  background-color: rgb(224, 236, 240);
+  padding: 120px 0px 80px 100px; 
+}
+.aboutus .para{
+  color: rgb(199, 12, 12);
+  padding-top: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.aboutus form{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+}
+.aboutus form input{
+  width: 100%;
+  padding: 10px;
+  box-shadow: 3px 3px 3px lightgray;
+  border: none;
+}
+.aboutus form h2{
+  font-size: 30px;
+}
+.aboutus form .btn{
+  margin-top: 15px;
+  width: 100%;
+}
+/*End aboutus*/
+/*images*/
+.imageheader{
+  padding: 100px 0px 60px 100px;
+}
+.imageheader p{
+  color: rgb(199, 12, 12);
+  font-family:Arial, Helvetica, sans-serif;
+}
+.imageheader h2{
+  font-weight: 600;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.imageheaderul{
+  display: flex;
+  margin-left: -50px;
+}
+.imageheaderul li{
+  padding-left: 20px;
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px; 
+}
+.image .border{
+  height: 430px;
+  width: 480px;
+  margin: 20px 0px 50px 30px;
+  padding: 50px 0px 0px 50px;
+  box-shadow: 5px 15px 3px rgb(239, 239, 245);
+  border-radius: 15px 50px 15px;
+}
+.image .Img{
+  height: 70%;
+  width: 90%;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 15px 50px 15px;
+  transition: .2s linear;
+}
+.image .Img:hover{
+  transform: scale(1.1);
+}
+.border h2{
+  padding: 25px 0px 0px 40px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.border p{
+  padding-left: 40px;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/*End images*/
+/* features */
+.ft{
+  background-color: rgb(2, 2, 22);
+  padding: 100px 0px 100px 0px;
+}
+.features{
+  text-align: center;
+}
+.para1{
+color: red;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.para2{
+  color: white;
+  font-size:18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.features h2{
+  color: white;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* row style */
+.frts{
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(12, 12, 153);
+}
+.frts h1{
+  font-size: 35px;
+}
+.frts p{
+  font-size: 15px;
+  color: #fff;
+}
+/* end features */
+/*testimonial*/
+.testimonial{
+  padding: 100px 0px 80px 100px;
+}
+.testimonial .para1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(205, 77, 22);
+}
+.testimonial .para2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.testimonial h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+}
+.test img{
+  width: 40px;
+  height: 40px;
+}
+.tstmol{
+  padding-top: 40px;
+}
+.pics .image{
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.pictxt p{
+  font-size: 13px;
+  color: rgba(98, 92, 92, 0.9);
+}
+.pictxt h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+/*End testimonial*/
+/*pricing*/
+.pricing{
+  background-color: rgb(213, 230, 235);
+  padding: 100px 0px 80px 0px;
+  text-align: center; 
+}
+.pricing .para1{
+  color: rgb(176, 27, 27);
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.pricing h2{
+  text-align: center;
+  font-size: 38px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+.pricing .para2{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.pricing .btnout{
+  background-color: #fff; 
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.pricing .btnin{
+  background-color: rgb(53, 53, 244);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.pricrow{
+  /* padding: 40px; */
+  padding-top:50px;
+  column-gap:25px;
+}
+.form{
+  background-color: #fff;
+  width: 340px;
+  height: 90vh;
+  border-radius: 30px;
+  padding: 25px;
+  margin-left: 40px;
+}
+.form h2{
+  color: rgb(48, 48, 239);
+  font-size: 40px;
+  font-weight: 400;
+}
+.form .para{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form h1{
+  font-size: 55px;
+  font-weight: 600;
+}
+.form button{
+  padding: 20px;
+  width: 60%;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid rgb(163, 165, 170);
+  font-size: 15px;
+}
+.form .iconpara{
+  color: rgba(98, 92, 92, 0.9);
+  text-align: left;
+  padding: 20px 0px 0px 30px;
+  
+}
+/*End pricing*/
+/*clients*/
+.clients{ 
+  background-color: rgb(5, 2, 20);
+  padding: 100px 0px 50px 100px;
+  
+}
+.clients .para1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(205, 77, 22);
+}
+.clients .para2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+.clients h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+.clnticon{
+  padding: 40px 0px 20px 60px;
+  color: rgb(101, 96, 96);
+}
+.clnticon h3{
+  font-size: 20px;
+}
+.clnticon i{
+  font-size: 35px;
+}
+/*End clients*/
+/*stories*/
+.stories{
+  padding: 100px 0px 80px 30px;
+}
+.stories .para1{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(170, 15, 15);
+  font-family:Arial, Helvetica, sans-serif;
+}
+.stories .head{
+  text-align: center;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.stories .para2{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.stry{
+  padding-top: 50px;
+}
+.stry img{
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+.stry h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.stry p{
+  font-size: 15px;
+  color: rgb(117, 111, 111);
+}
+.stry h5{
+  font-size: 18px;
+}
+/*End stories*/
+/*project*/
+.project{
+  background-color: rgb(79, 33, 215);
+  padding: 80px 0px 50px 0px;
+  height: 85vh;
+  text-align: center;
+}
+.project .para1{
+  color: rgb(221, 221, 15);
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.project h2{
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+.project button{
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  color: rgb(26, 26, 216);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+}
+.project img{
+  height: 400px;
+  width: 70%;
+}
+/*End project*/
+/*footer*/
+.footer{
+  padding-top: 250px;
+}
+.footer i{
+  color: rgb(128, 123, 123);
+  font-size: 22px;
+  padding-left: 120px; 
+}
+.ftr{
+  padding: 80px;
+}
+.ftr h2{
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ftr .column{
+  box-shadow: 2px 6px 1px rgb(232, 230, 230);
+  padding-left: 50px;
+}
+.ftrbtn{
+  padding: 20px;
+}
+.ftrbtn p{
+  box-shadow: 1px 2px 1px rgb(215, 213, 213);
+  padding: 5px;
+  width: 150px;
+}
+.ftrbtn button{
+  background-color:rgb(49, 49, 222);
+  border:none;
+  border-radius:10px;
+  color:#fff;
+  padding:10px;
+}
+.ftrlist h5{
+  padding-left: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.ftrlist ul li{
+  list-style-type: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(110, 106, 106);
+  padding-top: 10px;
+}
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
