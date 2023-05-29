@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/task1/static/css/main.16c04396.css",
+    "main.js": "/task1/static/js/main.e04b5744.js",
+    "static/js/787.b755f208.chunk.js": "/task1/static/js/787.b755f208.chunk.js",
+    "static/media/plan.webp": "/task1/static/media/plan.05566f21c52fc40cb8cd.webp",
+    "static/media/pic1.jpg": "/task1/static/media/pic1.54bc4a7fb90ae93e473b.jpg",
+    "static/media/webimg.png": "/task1/static/media/webimg.bd99cc7f9172581c1cd2.png",
+    "static/media/digital agency.jpg": "/task1/static/media/digital agency.d71c63ff2f5fd7f8cace.jpg",
+    "static/media/creative.jpg": "/task1/static/media/creative.148e8eac75a3bc4cfbba.jpg",
+    "static/media/banner.jpg": "/task1/static/media/banner.c367868f4ae4a49c5fb0.jpg",
+    "static/media/pic3.jpg": "/task1/static/media/pic3.a3edc41a50e4e7e71332.jpg",
+    "static/media/website.png": "/task1/static/media/website.64ebc14cd8a370db7493.png",
+    "static/media/google.png": "/task1/static/media/google.7c301fd6a8d5b45b3c23.png",
+    "static/media/instagram.png": "/task1/static/media/instagram.26c91204e29a83a3861d.png",
+    "static/media/social.jpg": "/task1/static/media/social.d11aad237abee767ea78.jpg",
+    "static/media/digital1.jpg": "/task1/static/media/digital1.42e469d1495e7b38b9ff.jpg",
+    "static/media/phnmarketing.jpg": "/task1/static/media/phnmarketing.1c1aeb6d03988ddd1549.jpg",
+    "static/media/web.webp": "/task1/static/media/web.191a1a0b54f631821115.webp",
+    "static/media/logo.png": "/task1/static/media/logo.4dc13cbb61938aff5e79.png",
+    "static/media/col2.webp": "/task1/static/media/col2.36b59d06c2126b2f4d2f.webp",
+    "static/media/pic2.jpg": "/task1/static/media/pic2.09f12fa044634d49be8d.jpg",
+    "index.html": "/task1/index.html",
+    "main.16c04396.css.map": "/task1/static/css/main.16c04396.css.map",
+    "main.e04b5744.js.map": "/task1/static/js/main.e04b5744.js.map",
+    "787.b755f208.chunk.js.map": "/task1/static/js/787.b755f208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16c04396.css",
+    "static/js/main.e04b5744.js"
+  ]
+}
